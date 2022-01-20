@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-1-D linear regression with data ingested from csv file. R-squared is computed
+1D linear regression with data ingested from csv file. R-squared is computed
 and printed to console. Predicted and actual data is plotted with matplotlib.
 """
 
