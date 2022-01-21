@@ -22,6 +22,7 @@ for line in open("data_poly.csv"):
     x.append([1, xn, xn**2])
     y.append(float(yn.strip()))
 
+# ======================== POLYNOMIAL LINEAR REGRESSION ================================
 # create numpy array objects
 np_x = np.array(x)
 np_y = np.array(y)
