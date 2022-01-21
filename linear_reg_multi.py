@@ -10,7 +10,7 @@ import csv
 from mpl_toolkits.mplot3d import Axes3D
 
 # ======================== READ CSV DATA FILE ==================================
-# empty linear dataset
+# empty dataset
 x = []
 y = []
 
@@ -25,7 +25,7 @@ for line in open("2D_dataset.csv"):
 np_x = np.array(x)
 np_y = np.array(y)
 
-# calculate weights
+# calculate regression weights
 # numpy default * does element by element operations
 # to do matrix muliiplaction we use np.dot
 w = np.linalg.solve(np.dot(np_x.T, np_x), np.dot(np_x.T, np_y))
