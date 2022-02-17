@@ -7,5 +7,5 @@ In work collection of linear regression models. Each module ingests a respective
 * Polynomial Regression
 
 # Features 
-NumPy - quantitative computation
-Matplotlib for visualization
+* NumPy - quantitative computation
+* Matplotlib for visualization
